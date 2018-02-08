@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sorting Hat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<nav class="navbar text-center">
+<div class="container-fluid text-center">
+    <div class="navbar-header text-center">
+    </div>
+</div>
+</nav>
+<div class="container-fluid text-center">
+	<h2>Sorting hat</h2>    
+	<hr>
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+    </div>
+    <div class="col-sm-9 text-left"> 
+		<div class="questions form-group">
+			<label>Which of these traits best describes you?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question1" value="G"  class="radio"/> Daring <br />
+				<input class="option" type="radio" name="question1" value="H"  class="radio" /> Fairplay <br />
+				<input class="option" type="radio" name="question1" value="R"  class="radio"/>  Foresight <br />
+				<input class="option" type="radio" name="question1" value="S"  class="radio"/> Prideful <br />
+			</form>
+		</div>
+		<div class="questions form-group">
+			<label>Your friend has a problem - they're being picked on! What do you do?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question2" value="G"  class="radio"/> Rush in without thinking and defend them! <br />
+				<input class="option" type="radio" name="question2" value="H"  class="radio"/> Run and get a teacher - they'll be able to help more than you <br />
+				<input class="option" type="radio" name="question2" value="R"  class="radio"/> Quickly formulate a brilliant plan to help them <br />
+				<input class="option" type="radio" name="question2" value="S"  class="radio"/> Consider carefully. what do you get out of this? <br />
+			</form>
+		</div>
+		<div class="questions form-group">
+			<label>Which of these would be the best pet <strong>EVER</strong>?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question3" value="G"  class="radio"/> A hippogriff <br />
+				<input class="option" type="radio" name="question3" value="H"  class="radio"/> A dog or a cat. <br />
+				<input class="option" type="radio" name="question3" value="R"  class="radio"/> An owl or a phoenix. <br />
+				<input class="option" type="radio" name="question3" value="S"  class="radio"/> A snake or a lizard <br />
+			</form>
+		</div>
+		<div class="questions form-group">
+			<label>If you saw a sign on a door telling you not to enter - Danger, Danger! - what would you do?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question4" value="G"  class="radio"/> Go in anyway! If they're warning people off, there's something awesome in there! <br />
+				<input class="option" type="radio" name="question4" value="H"  class="radio"/> Leave. Quickly. And don't look back. <br />
+				<input class="option" type="radio" name="question4" value="R"  class="radio"/> Leave it alone: there's probably a good reason for that warning sign! <br />
+				<input class="option" type="radio" name="question4" value="S"  class="radio"/> Laugh at the sign and go in. As if anything - or anyone - can tell you what to do. <br />
+			</form>
+		</div>
+		<div class="questions form-group">
+			<label>What would your family say is your worst trait?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question5" value="G"  class="radio"/> Reckless - you don't think before you act. <br />
+				<input class="option" type="radio" name="question5" value="H"  class="radio"/> You're too nice for your own good. <br />
+				<input class="option" type="radio" name="question5" value="R"  class="radio"/> A bit of a know-it-all.<br />
+				<input class="option" type="radio" name="question5" value="S"  class="radio"/> Worst trait? Really? You have no bad traits <br />
+			</form>
+		</div>
+		<div class="questions form-group">
+			<label>Which of these would be your perfect way to spend the day?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question6" value="G"  class="radio"/> Going on an adventure! Exploring, climbing, a little bit of risk-taking. <br />
+				<input class="option" type="radio" name="question6" value="H"  class="radio"/> Spending time with friends and family. <br />
+				<input class="option" type="radio" name="question6" value="R"  class="radio"/> Curled up with a good book.<br />
+				<input class="option" type="radio" name="question6" value="S"  class="radio"/> Hmm.. spending a little money..Maybe a little bit of harmless banter.. <br />
+			</form>
+		</div>
+		<div class="questions form-group">
+			<label>Someone steals some money from you - but they're poor and really need it. What do you do?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question7" value="G"  class="radio"/> You grumble about them stealing it but offer them another twenty. <br />
+				<input class="option" type="radio" name="question7" value="H"  class="radio"/> You let them keep it, befriend them, and offer them your coat. <br />
+				<input class="option" type="radio" name="question7" value="R"  class="radio"/> You calculate a way for them to get help - they can keep the money, but only after a quick telling-off.<br />
+				<input class="option" type="radio" name="question7" value="S"  class="radio"/> Who cares if they're poor? That money is yours and no one ever takes what belongs to you!<br />
+			</form>
+		</div>
+		<div class="questions form-group">
+			<label>If you could have any superpower, which would you have?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question8" value="G"  class="radio"/> Super strength or invincibility <br />
+				<input class="option" type="radio" name="question8" value="H"  class="radio"/> Invisibility.<br />
+				<input class="option" type="radio" name="question8" value="R"  class="radio"/> The power of foresight<br />
+				<input class="option" type="radio" name="question8" value="S"  class="radio"/> Mind control<br />
+			</form>
+		</div>
+		<div class="questions form-group">
+			<label>Which of these would be your perfect home?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question9" value="G"  class="radio"/> Somewhere wild, near nature <br />
+				<input class="option" type="radio" name="question9" value="H"  class="radio"/> A nice little place - safe, quiet<br />
+				<input class="option" type="radio" name="question9" value="R"  class="radio"/> Somewhere close to a huge library!<br />
+				<input class="option" type="radio" name="question9" value="S"  class="radio"/> A huge palace.<br />
+			</form>
+		</div>
+		<div class="questions form-group">
+			<label>Which of these would be your dream jobs?</label>
+			<form class="options">
+				<input class="option" type="radio" name="question10" value="G"  class="radio"/> <strong><em>HP World : </em></strong> Auror.. &nbsp;<strong><em>Real World : </em></strong> explorer or detective - something exciting! <br />
+				<input class="option" type="radio" name="question10" value="H"  class="radio"/> <strong><em>HP World : </em></strong> Herbology professor..&nbsp; <strong><em>Real World : </em></strong> a children's librarian or teacher.<br />
+				<input class="option" type="radio" name="question10" value="R"  class="radio"/> <strong><em>HP World : </em></strong> Hogwarts professor.. &nbsp;<strong><em>Real World : </em></strong> university professor or doctor.<br />
+				<input class="option" type="radio" name="question10" value="S"  class="radio"/> <strong><em>HP World : </em></strong> someone high up in the Ministry..&nbsp; <strong><em>Real World : </em></strong> something high up in the government..Power is everything!<br />
+			</form>
+		</div>
+		<div class= "col-sm-9 text-center" id="result" style="{font-family: 'Harry Potter'; font-size:28px}">
+		</div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+<footer class="container-fluid text-center fixed-bottom">
+  <p>Questions Powered by &copy; Hari <br /> Created by &reg; Nishanth  </p>
+</footer>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,37 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    
+    /* Set gray background color and 100% height */
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+	  position: fixed;
+      color: white;
+      padding: 15px;
+	  height: 100px;
+	  bottom: 0;
+      width: 100%;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: 100%;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+  	@font-face {
+ 		font-family: 'Harry Potter';
+	  	src: url('fonts/hp2.TTF');
+	}
+  	* {font-family: 'Harry Potter'; font-size:28px}
+	.options {font-family: 'Harry Potter'; font-size:22px}
+
